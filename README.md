@@ -1,7 +1,20 @@
-# tailrocks-pull-request-skills
+# tailrocks-pull-request-skills (retired)
 
-> **Migration notice:** Pull-request lifecycle skills now live in the consolidated [tailrocks-repository-skills v0.2.0 release](https://github.com/tailrocks/tailrocks-repository-skills/releases/tag/v0.2.0). Use that repository for current installs, issues, and pull requests. This repository remains available for historical provenance.
+This package is retired. It is read-only. Do not install it.
 
-Pull request creation, refresh, review, documentation, templates, and merge skills for Tailrocks.
+Use [tailrocks-repository-skills](https://github.com/tailrocks/tailrocks-repository-skills)
+instead. That repository holds the current pull-request lifecycle
+skills: create, refresh, review, merge, and the PR template skill.
 
-Skill source is under `skills/`. The umbrella registry is [tailrocks-skills](https://github.com/tailrocks/tailrocks-skills).
+## Migration
+
+Install the current package. Follow its
+[installation guide](https://github.com/tailrocks/tailrocks-repository-skills/blob/standardize/common-package/docs/installation.md).
+Route new issues and pull requests to that repository.
+
+## Reason for retirement
+
+The Tailrocks skill collection consolidated the pull-request lifecycle
+skills into one repository package. This historical package stays
+available for provenance only. This retirement removes its skill
+definitions, plugin manifests, and catalogs.
