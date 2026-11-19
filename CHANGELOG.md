@@ -2,7 +2,15 @@
 
 ## Unreleased
 
-Retired this package on branch `standardize/retire`:
+- Pointed the migration guide at the current installation guide on `main`.
+- Added repository maintenance instructions and refreshed the shared retired
+  profile, including checks that reject native entry points and adapters.
+- Regenerated the minimal retirement CI with Velnor Actions `0.1.80` and added
+  strict JSON and local Markdown link checks.
+
+## Package retirement
+
+Retired this package in favor of `tailrocks-repository-skills`:
 
 - Removed the six historical skills (`tailrocks-create-pr`,
   `tailrocks-refresh-pr`, `tailrocks-review-pr`, `tailrocks-merge-pr`,
